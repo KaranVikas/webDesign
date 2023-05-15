@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
+:root{
+    
+}
+
+
+body{
+    background-color: #111827;
+    color: white;
+    /* Font */
+    font-family: 'Space Grotesk';
+    font-style: normal;
+}
+h1,h2,h3,h4,h5,h6,span,p,div{
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  margin:0;
+  padding:0;
+}
+
+button{
+  border:none;
+  background: transparent;
+}
+
+.textLeft{
+  text-align: left;
+}
+
+.tilte{
+    margin-top: 140px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 72px;
+  /* or 112% */
+  text-align: center;
+  letter-spacing: -0.02em;
+  /* Gray/200 */
+  color: #E5E7EB;
+}
+
+.desc{
+    margin-top: 28px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+  text-align: center;
+  letter-spacing: -0.02em;
+  /* Gray/300 */
+  color: #D1D5DB;
+}
+
+.worktitle{
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  letter-spacing: -0.02em;
+  /* Gray/200 */
+  color: #E5E7EB;
+  text-align: left;
+  margin-bottom: 12px;
+  }
+
+.bluebtn{
+  width: 208px;
+  height: 56px;
+  background: #6C4BEF;
+  border-radius: 12px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  color: #F8FAFC;
+}
+
+.bluebtnText{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F8FAFC;
+}

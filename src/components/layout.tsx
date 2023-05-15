@@ -7,9 +7,11 @@
 
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import styled from "styled-components"
 
 import Header from "./header"
 import "./layout.css"
+import { Behance, Dribbble, Figma, Linkedin, Medium, Twitter, Youtube } from "../svg"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -39,9 +41,22 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
           }}
         >
-          © {new Date().getFullYear()} &middot; Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <div style={{display:"flex", justifyContent:"space-between"}}>
+            <div>
+              MehediHas
+              © {new Date().getFullYear()} &middot;
+              {` `}
+            </div>
+            <div>
+              <A href="https://www.gatsbyjs.com"><Linkedin/></A>
+              <A href="https://www.gatsbyjs.com"><Twitter/></A>
+              <A href="https://www.gatsbyjs.com"><Dribbble/></A>
+              <A href="https://www.gatsbyjs.com"><Behance/></A>
+              <A href="https://www.gatsbyjs.com"><Youtube/></A>
+              <A href="https://www.gatsbyjs.com"><Medium/></A>
+              <A href="https://www.gatsbyjs.com"><Figma/></A>
+            </div>
+          </div>
         </footer>
       </div>
     </>
@@ -49,3 +64,7 @@ const Layout = ({ children }) => {
 }
 
 export default Layout
+
+const A = styled.a`
+  margin-left: 12px;
+`

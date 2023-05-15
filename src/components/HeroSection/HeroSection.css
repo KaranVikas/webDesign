@@ -1,0 +1,22 @@
+.title{
+    margin-top: 140px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 72px;
+  /* or 112% */
+  text-align: center;
+  letter-spacing: -0.02em;
+  /* Gray/200 */
+  color: #E5E7EB;
+}
+.desc{
+    margin-top: 28px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+  text-align: center;
+  letter-spacing: -0.02em;
+  /* Gray/300 */
+  color: #D1D5DB;
+}
