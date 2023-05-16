@@ -25,15 +25,9 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className="container">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: `var(--size-content)`,
-          padding: `var(--size-gutter)`,
-        }}
-      >
+
         <main>{children}</main>
         <footer
           style={{
@@ -42,7 +36,7 @@ const Layout = ({ children }) => {
           }}
         >
           <div style={{display:"flex", justifyContent:"space-between"}}>
-            <div>
+            <div className="footerClass">
               MehediHas
               © {new Date().getFullYear()} &middot;
               {` `}
@@ -58,8 +52,7 @@ const Layout = ({ children }) => {
             </div>
           </div>
         </footer>
-      </div>
-    </>
+    </div>
   )
 }
 

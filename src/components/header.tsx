@@ -7,8 +7,8 @@ import styled from 'styled-components'
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      margin: `0 auto`,
-      padding: `var(--space-4) var(--size-gutter)`,
+      // margin: `0 auto`,
+      // padding: `var(--space-4) var(--size-gutter)`,
       display: `flex`,
       alignItems: `center`,
       justifyContent: `space-between`,
@@ -18,8 +18,8 @@ const Header = ({ siteTitle }) => (
     
     
     <nav className="navbar navbar-expand-lg bg-body-tertiary" style={{color:"white"}}>
-  <div className="container-fluid" style={{color:"white"}}>
-    <A className="navbar-brand" href="#" style={{color:"white"}}><MainLogo/></A>
+  <div className="container-fluid" style={{color:"white",padding:"0px"}}>
+    <A className="navbar-brand" href="#" style={{color:"white",margin:"0px"}}><MainLogo/></A>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -39,7 +39,7 @@ const Header = ({ siteTitle }) => (
         
       </div>
     </div>
-    <div className="collapse navbar-collapse" id="navbarNavAltMarkup" style={{color:"white",}}>
+    <div className="d-md-block collapse navbar-collapse" id="navbarNavAltMarkup" style={{color:"white",}}>
       <div className="navbar-nav" style={{color:"white",width:"180px",alignItems:"center"}} >
         <Button>
           <MessageIcon/> 

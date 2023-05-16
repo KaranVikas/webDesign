@@ -9,17 +9,17 @@ import BlueButton from '../BlueButton/BlueButton'
 const index = () => {
   return (
   <section>
-    <div className='container'>
+    <div style={{marginBottom:"112px"}}>
 
-      <div className='row text-start'>
-          <h2 className='worktitle '>My Work</h2>
+      <div className='row '>
+          <h2 className='worktitle text-md-left text-center'>My Work</h2>
           <div className='workStyle col'>
           <h4 className="desc mt-2 " style={{textAlign:'left'}}>Here are some of my design works that showcase my design skills and expertise. Click on each project to see</h4>
           </div>
-          <div className="col">
-            <span className='ms-3'><Visual/></span>
-            <span className='ms-3'><CaseStudy/></span>
-            <span className='ms-3'><Project/></span>
+          <div className="col d-flex align-items-end justify-content-end">
+            <span className='ms-3 '><Visual/></span>
+            <span className='ms-3 '><CaseStudy/></span>
+            <span className='ms-3 '><Project/></span>
           </div>
       
       </div>  
@@ -28,7 +28,10 @@ const index = () => {
         <CardComp text={Card2} />
         <CardComp text={Card3} />
       </div>
-      <BlueButton/>
+      <div className='text-center'>
+        <BlueButton/>
+      </div>
+       
     </div>
   </section>
   )

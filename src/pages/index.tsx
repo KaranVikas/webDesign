@@ -7,16 +7,31 @@ import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 import HeroSection from "../components/HeroSection/HeroSection"
 import WorkSection from "../components/WorkSection/WorkSection"
+import KindSection from "../components/KindSection/KindSection"
+import BlogSection from "../components/BlogSection/BlogSection"
+import StorySection from "../components/StorySection/StorySection"
 
 const IndexPage = () => (
   <Layout>
-      <div className={styles.textCenter}>
-      <HeroSection/>
-      <WorkSection/>
-    </div>
-    
+    <HeroSection/>
+    <WorkSection/>
+    <KindSection/>
+    <BlogSection/>
+    <StorySection/>
   </Layout>
-)
+  )
+//   <Layout>
+//     <div className="container">
+
+//       {/* <HeroSection/> */}
+//       <WorkSection/>
+//       {/* <KindSection/> */}
+//     </div>
+//       {/* <div className={styles.textCenter}> */}
+//     {/* </div> */}
+    
+//   </Layout>
+// )
 
 /**
  * Head export to define metadata for the page

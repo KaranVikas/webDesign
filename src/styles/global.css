@@ -17,8 +17,8 @@ body{
 h1,h2,h3,h4,h5,h6,span,p,div{
   font-family: 'Space Grotesk';
   font-style: normal;
-  margin:0;
-  padding:0;
+  margin:0px;
+  padding:0px;
 }
 
 button{
@@ -28,6 +28,10 @@ button{
 
 .textLeft{
   text-align: left;
+}
+
+.textCenter{
+  text-align: center;
 }
 
 .tilte{
@@ -48,7 +52,7 @@ button{
   font-size: 20px;
   line-height: 28px;
   /* or 140% */
-  text-align: center;
+
   letter-spacing: -0.02em;
   /* Gray/300 */
   color: #D1D5DB;
@@ -61,9 +65,33 @@ button{
   letter-spacing: -0.02em;
   /* Gray/200 */
   color: #E5E7EB;
-  text-align: left;
+  
   margin-bottom: 12px;
   }
+
+.smallFont{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  text-align: center;
+  letter-spacing: -0.02em;
+  /* Gray/300 */
+  color: #D1D5DB;
+  }
+
+.nameFont{
+  font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+
+letter-spacing: -0.02em;
+
+/* Gray/200 */
+
+color: #E5E7EB;
+}
 
 .bluebtn{
   width: 208px;
@@ -81,4 +109,69 @@ button{
   font-size: 16px;
   line-height: 24px;
   color: #F8FAFC;
+}
+
+.kindBorder{
+  width: 456px;
+  padding: 40px;
+  background: rgba(31, 41, 55, 0.4);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 12px;
+}
+
+.kindLeftBorder{
+  padding: 40px 23px 40px 40px;
+  background: rgba(31, 41, 55, 0.4);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 12px;
+}
+
+.nameTitle{
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+  /* Gray/300 */
+  color: #D1D5DB;
+}
+
+.blueBox{
+  padding: 40px 0px;
+  height: 160px;
+  /* Purple/500 */
+  background: #6C4BEF;
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 12px;
+  margin-bottom: 112px;
+}
+.grey300{
+  color:#D1D5DB;
+}
+.smallBtn{
+  padding: 16px 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* Slate/50 */
+  color: #F8FAFC;
+  background: #6C4BEF;
+  border-radius: 12px;
+}
+
+.footerClass{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  letter-spacing: -0.02em;
+  /* Gray/300 */
+  color: #D1D5DB;
 }
