@@ -1,4 +1,4 @@
-.title {
+.hero-section__heading {
   margin-top: 140px;
   font-weight: 500;
   font-size: 64px;
@@ -11,7 +11,7 @@
 
 }
 
-.desc {
+.hero-section__text {
   margin-top: 28px;
   font-weight: 400;
   font-size: 20px;
@@ -26,7 +26,7 @@
 @media only screen and (max-width: 767px) {
 
   /* CSS styles for mobile screens */
-  .title {
+  .hero-section__heading {
     font-weight: 500;
 font-size: 28px;
 line-height: 36px;
@@ -37,15 +37,16 @@ letter-spacing: -0.02em;
 
   }
 
-  .desc {
-    margin-top: 28px;
+  .hero-section__text{
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    /* or 140% */
-    text-align: center;
-    letter-spacing: -0.02em;
-    /* Gray/300 */
-    color: #D1D5DB;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+text-align: center;
+
+/* Gray/300 */
+
+color: #D1D5DB;
   }
 }

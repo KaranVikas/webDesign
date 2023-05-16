@@ -12,18 +12,18 @@ const index = () => {
     <div style={{marginBottom:"112px"}}>
 
       <div className='row '>
-          <h2 className='worktitle text-md-left text-center'>My Work</h2>
+          <h2 className='worktitle text-md-start text-center'>My Work</h2>
           <div className='workStyle col'>
-          <h4 className="desc mt-2 " style={{textAlign:'left'}}>Here are some of my design works that showcase my design skills and expertise. Click on each project to see</h4>
+          <h4 className="hero-section__text mt-2 " style={{textAlign:'left'}}>Here are some of my design works that showcase my design skills and expertise. Click on each project to see</h4>
           </div>
-          <div className="col d-flex align-items-end justify-content-end">
+          <div className="col justify-content-between d-flex align-items-end justify-md-content-end mt-4 mt-md-0">
             <span className='ms-3 '><Visual/></span>
             <span className='ms-3 '><CaseStudy/></span>
             <span className='ms-3 '><Project/></span>
           </div>
       
       </div>  
-      <div className='row mt-3'>
+      <div className='row mt-3 text-center text-md-start'>
         <CardComp text={Card1} />
         <CardComp text={Card2} />
         <CardComp text={Card3} />

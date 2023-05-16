@@ -34,7 +34,7 @@ button{
   text-align: center;
 }
 
-.tilte{
+.hero-section__heading{
     margin-top: 140px;
   font-weight: 500;
   font-size: 64px;
@@ -46,7 +46,7 @@ button{
   color: #E5E7EB;
 }
 
-.desc{
+.hero-section__text{
     margin-top: 28px;
   font-weight: 400;
   font-size: 20px;
@@ -112,7 +112,7 @@ color: #E5E7EB;
 }
 
 .kindBorder{
-  width: 456px;
+  
   padding: 40px;
   background: rgba(31, 41, 55, 0.4);
   backdrop-filter: blur(10px);
@@ -174,4 +174,40 @@ color: #E5E7EB;
   letter-spacing: -0.02em;
   /* Gray/300 */
   color: #D1D5DB;
+}
+
+@media only screen and (max-width: 767px) {
+.blueBox{
+  height:340px;
+}
+.hero-section__heading {
+    font-weight: 500;
+font-size: 28px;
+line-height: 36px;
+/* or 129% */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+  }
+
+  .hero-section__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    text-align: center;
+    
+    /* Gray/300 */
+    
+    color: #D1D5DB;
+  }
+  .kindLeftBorder{
+    padding: 24px;
+  }
+  .kindBorder{
+    padding: 24px;
+
+  }
 }

@@ -8,7 +8,7 @@ const CardComp = ({text}) => {
     <Card className="col-12 col-md mb-3 mb-md-0">
         <img src={text} style={{width:"100%"}}></img>
         <div className='d-flex justify-content-between'>
-            <h2 className='desc text-start mt-0'>Personal Portfolio Website Hero Design Concept</h2>
+            <h2 className='hero-section__text text-start mt-0'>Personal Portfolio Website Hero Design Concept</h2>
             <button><ButtonArrow/></button>
         </div>
     </Card>

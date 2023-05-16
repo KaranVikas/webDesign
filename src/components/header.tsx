@@ -39,7 +39,7 @@ const Header = ({ siteTitle }) => (
         
       </div>
     </div>
-    <div className="d-md-block collapse navbar-collapse" id="navbarNavAltMarkup" style={{color:"white",}}>
+    <div className="d-none d-lg-block collapse navbar-collapse" id="navbarNavAltMarkup" style={{color:"white",}}>
       <div className="navbar-nav" style={{color:"white",width:"180px",alignItems:"center"}} >
         <Button>
           <MessageIcon/> 

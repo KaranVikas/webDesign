@@ -35,13 +35,13 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
           }}
         >
-          <div style={{display:"flex", justifyContent:"space-between"}}>
-            <div className="footerClass">
+          <div className="text-center text-sm-left d-flex flex-column flex-md-row" style={{display:"flex", justifyContent:"space-between"}}>
+            <div className="footerClass ">
               MehediHas
               © {new Date().getFullYear()} &middot;
               {` `}
             </div>
-            <div>
+            <div className='mt-4 mt-md-0 mb-4'>
               <A href="https://www.gatsbyjs.com"><Linkedin/></A>
               <A href="https://www.gatsbyjs.com"><Twitter/></A>
               <A href="https://www.gatsbyjs.com"><Dribbble/></A>

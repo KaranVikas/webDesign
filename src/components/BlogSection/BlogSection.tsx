@@ -13,7 +13,7 @@ const BlogSection = () => {
       <div className='row text-start'>
           <h2 className='worktitle '>Blog & Resources</h2>
           <div className='workStyle col'>
-          <h4 className="desc mt-2 " style={{textAlign:'left'}}>I love to write whenever i can. Here is some of my 
+          <h4 className="hero-section__text mt-2 text-center text-md-start " style={{textAlign:'left'}}>I love to write whenever i can. Here is some of my 
           blog and resources for the designers and developers.</h4>
           </div>
           <div className='col'></div>
